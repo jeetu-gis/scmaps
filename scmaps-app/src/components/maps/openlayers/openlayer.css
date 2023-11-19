@@ -1,0 +1,23 @@
+.map-container{
+    height: 100vh;
+    width: 100%;
+  }
+  
+#map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.columnleft {
+  float: left;
+  padding: 2px;
+  height: 100%;
+  width: 80%;
+}
+.columnright {
+  float: left;
+  padding: 2px;
+  height: 100%;
+  width: 20%;
+}

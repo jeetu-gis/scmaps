@@ -1,0 +1,59 @@
+
+#map {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+
+  .mapheader {
+    grid-column: 1 / span 2;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+  }
+  .leaflet-container {
+    height: 100vh;
+    width: 100%;
+    
+  }
+  
+  
+  .leaflet-div-icon {
+    background: transparent;
+    border: none;
+  }
+
+  .list {
+    background-color: lightgray;
+    padding: 10px;
+  }
+
+  .map {
+    background-color: lightgray;
+    padding: 2px;
+  }
+  .map-container{
+    height: 100vh;
+    width: 100%;
+  }
+  .columnleft {
+    float: left;
+    padding: 2px;
+    height: 100%;
+    width: 80%;
+  }
+  .columnright {
+    float: left;
+    padding: 2px;
+    height: 100%;
+    width: 20%;
+  }
+  .icon {
+    border: none;
+    background: transparent;
+    color: #ff2600;
+    background-image: url("images/wm.svg");
+    background-size: cover;
+  }
